@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@types/node": "^20.4.2",
+    "discord.js": "^14.11.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "setup":"npm install && echo '{\n\t\"token\":\"\",\n\t\"clientId\":\"\"\n}' > src/config.json && echo '\nEverything should be installed correctly! To continue, fill up the config.json file'"
+  } 
+}
