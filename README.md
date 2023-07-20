@@ -38,7 +38,7 @@ Note: This is my first time using Typescript, any suggestion is appreciated
   ```  
 2. Cd into the folder and setup the dependencies:
   ```sh
-  cd discordjs-template
+  cd discordts-template
   npm run setup
   ```  
 All the packages and a file named config.json should be now created.
